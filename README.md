@@ -4,7 +4,7 @@ Frank is a super-micro flat-file cms(ish) in a single [PHP](http://php.net/) fil
 
 ## Overview
 
-To call Frank a cms might be incorrect. It simply creates a structured object from a directory of content. In that way, Frank takes cues from flat-file content management systems like [Kirby](http://getkirby.com/) or [Stacey](https://github.com/kolber/stacey) but purposefully does excruciatingly less. It's probably most useful for privoding an easy way to structure data for single-page websites, though it could easily be combined with a router to build more complex things.
+To call Frank a cms might be incorrect. It simply creates a structured object from a directory of content. In that way, Frank takes cues from flat-file content management systems like [Kirby](http://getkirby.com/) or [Stacey](https://github.com/kolber/stacey) but purposefully does excruciatingly less. It's probably most useful for providing an easy way to structure data for single-page websites, though it could easily be combined with a router to build more complex things.
 
 ## Getting Started
 
