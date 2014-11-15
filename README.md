@@ -4,7 +4,7 @@ Frank is a super-micro flat-file cms(ish) in a single [PHP](http://php.net/) fil
 
 ## Overview
 
-Frank takes cues from flat-file content management systems like [Kirby](http://getkirby.com/) and [Stacey](https://github.com/kolber/stacey) but purposefully does excruciatingly less. It's probably most useful for building single-page websites, though it could easily be combined with a router to build more complex things.
+To call Frank a cms might be incorrect. It simply creates a structured object from a directory of content. In that way, Frank takes cues from flat-file content management systems like [Kirby](http://getkirby.com/) or [Stacey](https://github.com/kolber/stacey) but purposefully does excruciatingly less. It's probably most useful for privoding an easy way to structure data for single-page websites, though it could easily be combined with a router to build more complex things.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ Your content directory will be turned into a useful object. A single `site()` me
 	
 	print_r($frank->site()); // site object
 	
-To install, download Frank and place it into your project. Create a content directory (by default Frank will look for this parallel to itself in `./content`, but you can name this anything and place this anywhere) and add some content.
+To install, download Frank and place it into your project. Create a content directory (by default a Frank instance will look for this directory parallel to itself in `./content`, but you can name this anything and place this anywhere) and add some content.
 
 ## Structuring Content
 
@@ -90,4 +90,4 @@ Any additional files within a directory are placed into an `array() files`
 
 ## Notes
 
-Frank can, should, and probably will, be made more robust. For the moment, you should name your directories with slug friendly characters and be aware that certain files could break Frank entirely.  Drop bugs or suggestions into Issues, if you'd like. 
+Frank can, should, and probably will, be made more robust. For the moment, you should name your directories with slug friendly characters and be aware that certain files could break Frank entirely. Currently I use Frank in combination with caching in a sort of faux static-site scenario. Drop bugs or suggestions into Issues, if you'd like. 
